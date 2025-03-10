@@ -70,8 +70,11 @@
 //    print(String(repeating: "*", count: i))
 //    print(i)
 //}
-import Foundation
+// 백준 https://www.acmicpc.net/problem/2798
 // readline and divide it by space and make those into Int
+
+/*
+import Foundation
 var input: [Int] = readLine()!.split(separator: " ").compactMap{ Int($0) }
 
 var input2: [Int] = readLine()!.split(separator: " ").compactMap{ Int($0) }
@@ -97,3 +100,4 @@ for i in 0..<cardCount-2 {
 }
 print(result)
 //print(numArray.count)
+*/

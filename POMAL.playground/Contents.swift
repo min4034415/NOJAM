@@ -20,3 +20,4 @@ import Foundation
 for i in stride(from: 0, through: 20, by: 2) {
     print(i)
 }
+
