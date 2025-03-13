@@ -1,6 +1,6 @@
 import Foundation
 
-var input: [Int] = [5, 5, 3, 2, 1]
+var input: [Int] = [5, 5, 3, 2,3,4, 1]
 
 //for i in input {
 //    print(i, terminator: " ") // Print array with spaces
@@ -27,4 +27,6 @@ if array.count < 1 {
    return quicksort(left) + equal + quicksort(right)
 }
 
-quicksort(input3)
+//quicksort(Array(Set(input)))
+quicksort(Array(Set(input)))
+
