@@ -5,6 +5,16 @@
 //  Created by Ouimin Lee on 3/6/25.
 //
 
+
+
+
+/*
+ 
+ 
+ 
+ 
+ 
+ 
 import Foundation
 //https://www.acmicpc.net/submit/2231/91151565
 
@@ -59,6 +69,37 @@ for i in (n..<k){
 print(thenum)
 //make these into a function
 //import Foundation
+//func findNum() -> Int {
+//    let k = Int(readLine() ?? "0") ?? 0
+//    let n = k - 54
+//    for i in (n..<k){
+//        if sumOfDigits(i) == k {
+//            return i
+//        }
+//    }
+//    return 0
+//}
+//print(findNum())
+
+ 
+ 
+ 
+ */
+
+//import Foundation
+//
+//func sumOfDigits(_ n: Int) -> Int {
+//    var num = n
+//    var sum = num
+//    
+//    while num != 0 {
+//        sum += num % 10
+//        num /= 10
+//    }
+//    return sum
+//}
+//
+//
 //func findNum() -> Int {
 //    let k = Int(readLine() ?? "0") ?? 0
 //    let n = k - 54
